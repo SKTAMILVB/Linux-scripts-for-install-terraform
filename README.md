@@ -1,7 +1,7 @@
 # Linux-scripts-for-install-terraform
 - This document explains how to install Terraform on a Linux system using a shell script. The script downloads the Terraform binary, installs it, and verifies the installation.
   
-Prerequisites
+## Prerequisites
 
 **Before installing Terraform, ensure the following are available on your Linux system**
 
