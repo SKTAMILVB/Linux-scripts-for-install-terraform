@@ -9,7 +9,7 @@
    - unzip utility
    - sudo access
 
-- **Terraform Installation Script**
+- **Terraform Installation Script**:
 The following script performs these actions:
   - Defines the Terraform version
   - Downloads Terraform from HashiCorp official site
