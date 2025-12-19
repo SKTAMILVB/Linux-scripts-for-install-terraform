@@ -11,19 +11,21 @@
   - unzip utility
   - sudo privileges
 
-- **Terraform Installation Script**:
-The following script performs these actions:
-  - Defines the Terraform version
-  - Downloads Terraform from HashiCorp official site
-  - Extracts the binary
-  - Moves Terraform to /usr/local/bin
-  - Verifies the installation
+**Terraform Installation Script**
 
-- **Steps to Execute the Script**
-  - Create a script file.
-  - Paste the script content and save the file.
-  - Provide execute permission.\
-  - Run the script.
+- The script performs the following actions:
+  - Defines the Terraform version to install
+  - Downloads the Terraform binary from the official HashiCorp website
+  - Extracts the downloaded archive
+  - Moves the Terraform binary to /usr/local/bin
+  - Verifies the Terraform installation
+
+**Steps to Execute the Script**
+
+  - Create a shell script file (e.g., install_terraform.sh).
+  - Paste the script content into the file and save it.
+  - Make the script executable:
+  - Run the script:
  
 <img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/f60d2e30-3655-4c1a-84b3-6fe287037ef1" />
 
