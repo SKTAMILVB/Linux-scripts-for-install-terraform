@@ -21,4 +21,7 @@ The following script performs these actions:
   - Create a script file.
   - Paste the script content and save the file.
   - Provide execute permission.\
-  - Run the script:
+  - Run the script.
+ 
+<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/f962cea3-2f54-4358-bb9a-16f3bdabed50" />
+
