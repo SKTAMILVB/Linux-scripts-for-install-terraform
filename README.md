@@ -4,11 +4,11 @@
 Prerequisites
 
 **Before installing Terraform, ensure the following are available on your Linux system**
-Ubuntu or a similar Linux distribution
-Internet connectivity
-wget utility
-unzip utility
-sudo privileges
+- Ubuntu or a similar Linux distribution
+  - Internet connectivity
+  - wget utility
+  - unzip utility
+  - sudo privileges
 
 - **Terraform Installation Script**:
 The following script performs these actions:
