@@ -18,7 +18,7 @@ The following script performs these actions:
   - Verifies the installation
 
 - **Steps to Execute the Script**
- - Create a script file.
- - Paste the script content and save the file.
- - Provide execute permission.\
- - Run the script:
+  - Create a script file.
+  - Paste the script content and save the file.
+  - Provide execute permission.\
+  - Run the script:
