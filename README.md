@@ -9,15 +9,15 @@
    - unzip utility
    - sudo access
 
-**Terraform Installation Script**
-- The following script performs these actions:
+- **Terraform Installation Script**
+The following script performs these actions:
   - Defines the Terraform version
   - Downloads Terraform from HashiCorp official site
   - Extracts the binary
   - Moves Terraform to /usr/local/bin
   - Verifies the installation
 
-**Steps to Execute the Script**
+- **Steps to Execute the Script**
  - Create a script file.
  - Paste the script content and save the file.
  - Provide execute permission.\
