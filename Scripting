@@ -1,0 +1,37 @@
+#!/bin/bash
+
+set -e
+
+echo "=============================="
+echo " Installing Terraform (APT)  "
+echo "=============================="
+
+# Step 1: Update system & install prerequisites
+echo "[1/5] Installing prerequisites..."
+sudo apt update -y
+sudo apt install -y gnupg software-properties-common curl
+
+# Step 2: Add HashiCorp GPG key
+echo "[2/5] Adding HashiCorp GPG key..."
+curl -fsSL https://apt.releases.hashicorp.com/gpg | \
+sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+# Step 3: Add HashiCorp APT repository
+echo "[3/5] Adding HashiCorp repository..."
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+sudo tee /etc/apt/sources.list.d/hashicorp.list
+
+# Step 4: Install Terraform
+echo "[4/5] Installing Terraform..."
+sudo apt update -y
+sudo apt install -y terraform
+
+# Step 5: Verify installation
+echo "[5/5] Verifying Terraform installation..."
+terraform --version
+
+echo "=============================="
+echo " Terraform installation done "
+echo "=============================="
+
